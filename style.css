@@ -27,6 +27,19 @@ header .logo {
   text-decoration: none;
 }
 
+header .logo span {
+  color: #37d72f;
+}
+
+header .toggle {
+  max-width: 60px;
+  cursor: pointer;
+}
+
+header .toggle img {
+  max-width: 100%;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -35,4 +48,14 @@ header .logo {
   background: #111;
   justify-content: flex-start;
   align-items: center;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  background: #37d72f;
 }
